@@ -4,5 +4,5 @@ const btnIniciar = document.getElementById('btn-iniciar')
 btnIniciar.addEventListener('click', () => cambiarPagina())
 
 let cambiarPagina = () => {
-  location.href = 'html/game.html'
+  location.href = '../game.html'
 }

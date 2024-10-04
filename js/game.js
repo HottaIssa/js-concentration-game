@@ -4,8 +4,8 @@ const nextNumber = document.getElementById('next-number')
 const stopwatchDisplay = document.getElementById('timer')
 const containerInicial = document.getElementById('container-inicial')
 const btnCancelar = document.getElementById('btn-cancelar')
-const floatingWindow = document.getElementById('floating-window');
-const closeWindowBtn = document.getElementById('close-window-btn');
+const floatingWindow = document.getElementById('floating-window')
+const closeWindowBtn = document.getElementById('close-window-btn')
 
 let counter = 0
 
@@ -96,14 +96,14 @@ let wrongOption = (elementClicked) => {
 // Finish Game
 let finishGame = () => {
   floatingWindow.innerHTML += `<h2>Terminaste el juego</h2><br><p>Demoraste un total de ${stopwatchDisplay.textContent}</p>`
-  floatingWindow.style.display = 'block';
+  floatingWindow.style.display = 'block'
 }
 
 // Close the floating window
 closeWindowBtn.addEventListener('click', () => {
-  floatingWindow.style.display = 'none';
+  floatingWindow.style.display = 'none'
   location.href = 'index.html'
-});
+})
 
 //TIMER
 // Start stopwatch
