@@ -1,0 +1,108 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  padding: 15px; 
+  justify-content: center;
+  background-color:blueviolet;
+}
+
+.container-card {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  margin: 3vw 12vw;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  border: solid 1px;  
+  font-weight: bold;
+  font-size: 24px;
+  transition: 0.5s;
+}
+
+#floating-window {
+  font-weight: bold;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  width: 300px;
+  height: 200px;
+  display: none;
+}
+
+#close-window-btn {
+  position: absolute;
+  bottom: 70px;
+  left: 110px;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: red;
+}
+
+#container-inicial {
+  display: flex;
+  margin: 0 auto;
+  padding: 15px;
+  width: 50vh;
+  flex-direction: column;
+  align-items: center;
+}
+
+button {
+  display: flex;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#btn-iniciar {
+  margin: 20px;
+  background-color: #4CAF50;
+}
+
+#btn-cancelar {
+  background-color: red;
+}
+
+#historial {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 12vw;
+}
+
+#next-number {
+  font-weight: bold;
+  font-size: 20px
+}
+
+#timer {
+  font-weight: bold;
+  font-size: 20px;
+}
+
