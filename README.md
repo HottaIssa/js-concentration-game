@@ -19,3 +19,4 @@ js-concentration-game is a simple concentration game built using HTML, CSS, and 
 
 ## Contributing
 If you'd like to contribute to this project, feel free to fork the repository and submit a pull request.
+![concentration-grid](https://github.com/user-attachments/assets/7f21fc6a-4b5d-4390-9439-ba86c3f1ed70)
